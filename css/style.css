@@ -1,0 +1,178 @@
+@font-face {
+	font-family: 'fontscorecomttwcenmt';
+	src: url('./fontscorecomttwcenmt.eot');
+	src: local('fontscorecomttwcenmt'),
+	url('./fontscorecomttwcenmt.woff') format('woff'), 
+	url('./fontscorecomttwcenmt.ttf') format('truetype');
+}
+/*   //////////////////////////////////////////////////////////     */
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon.eot?ov2uzh');
+    src: url('../fonts/icomoon.eot?ov2uzh#iefix') format('embedded-opentype'),
+         url('../fonts/icomoon.ttf?ov2uzh') format('truetype'),
+         url('../fonts/icomoon.woff?ov2uzh') format('woff'),
+         url('../fonts/icomoon.svg?ov2uzh#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+/*   /////////////////////////////////////////////////////////////   */
+body {
+    font-size: 16px;
+    font-family: 'Tw Cen MT';
+}
+.container-fluid {
+	max-width: 1074px;
+    min-height: 100px;
+    background: #B4FFF1;
+}
+.header {
+	display: block;
+    float: right;
+}
+.side-bar {
+    height: 1000px;
+    width: 361px;
+    background: #FFD2FB;
+    float: left;
+    padding-right: 67px;
+}
+.side-bar .sqwirell {
+	width: 227px;
+    height: 184px;
+    border-left: 7px solid black;
+    border-right: 7px solid black;
+    border-bottom: 7px solid black;
+    float: left;
+    margin: 0;
+    position: relative;
+}
+.side-bar .sqwirell:after {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 45%;
+    bottom: -7px;
+    width: 10%;
+    height: 7px;
+    border-bottom: 7px solid #fff; 
+}
+.figure-sqwirell {
+	height: 61px;
+    width: 96px;
+}
+figure .figure-sqwirell:first-child {
+    border-bottom: 7px solid black;
+    border-right: 7px solid black;
+    margin-top: 12px;
+    float: left;
+}
+figure .figure-sqwirell:last-child {
+    border-bottom: 7px solid black;
+    border-right: 7px solid black;
+    transform: rotate(180deg);
+    float: right;
+    position: relative;
+    top: 66px;
+}
+.side-bar ul li a {
+    color: black;
+    line-height: 28px;
+}
+.side-bar ul li a:hover {
+    text-decoration: underline;
+}
+nav {
+    width: 170px;
+    float: right;
+    padding-top: 50px;
+}
+main {
+    background: #FCFFA0;
+    width: 100%;
+    max-width: 713px;
+    float: right;
+}
+main .foto-col {
+    min-width: 218px;
+}
+main .foto-col:first-child {
+    padding-right: 20px;
+}
+main .foto-col:nth-child(2) {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+main .foto-col:last-child {
+    padding-left: 20px;
+}
+.foto-item {
+	width: 218px;
+    margin: 0;
+    float: left;
+}
+h2 {
+    font-size: 16px;
+    font-family: 'Tw Cen MT';
+}
+h2 span {
+    font-weight: 600;
+}
+.social {
+	float: right;
+    padding-top: 50px;
+}
+.social-icon {
+    float: left;
+    margin-right: 15px;
+}
+.social-icon a {
+    display: block;
+    padding: 8px;
+}
+.social-icon a i {
+    display: block;
+}
+.social .social-icon:first-child {
+	border-left: 2px solid black;
+    border-bottom: 2px solid black;
+}
+.social .social-icon:nth-child(2) {
+	border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    margin-top: -1px;
+}
+.social .social-icon:last-child {
+	border-top: 2px solid black;
+    border-right: 2px solid black;
+}
+.icon-vk-alternitive:before {
+    content: "\e900";
+    font-size: 1.5em;
+    color: black;
+}
+.icon-facebook:before {
+    content: "\e901";
+    font-size: 1.5em;
+    color: black;
+}
+.icon-instagram-with-circle:before {
+    content: "\e902";
+    font-size: 1.5em;
+    color: black;
+}
